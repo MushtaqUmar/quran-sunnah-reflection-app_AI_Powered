@@ -1,7 +1,28 @@
 # Quran & Sunnah Reflection
 
-A local Streamlit prototype that lets a user describe how they feel and receives grounded reminders from the Quran, authentic hadith, and selected Seerah lessons.
+This is a small but meaningful prototype using Codex (AI), and it reminded me how fast AI is changing the way we create.
 
+The idea was to build a Streamlit web app with AI & API Integration where a user can write how they are feeling, whether anxious, emotionally exhausted, grateful, lonely, hopeful, guilty, or going through a difficult phase of life. Based on that input, the app suggests relevant reminders from the Quran, authentic Hadith, and selected lessons from the Seerah, with proper references.
+
+For the prototype, I used a curated local dataset. It includes selected Quranic verses, authentic Hadith references from collections like Sahih al-Bukhari, Sahih Muslim, and Jami’ at-Tirmidhi, and a few Seerah-based lessons such as Ta’if, Hijrah, Uhud, and the comfort of Khadijah رضي الله عنها during the beginning of revelation.
+
+The app does not randomly generate religious content. It follows a retrieval-first approach: first it finds relevant references from the dataset, then AI helps explain them gently in the context of the user’s emotion.
+
+**Some key features:**
+
+- User can describe their emotional state in natural language
+- App detects themes like anxiety, grief, guilt, gratitude, hope, loneliness, and burnout
+- It retrieves Quran, Hadith, and Seerah-based reminders
+- Each result includes references such as surah/ayah number or Hadith collection and number
+- Arabic and English text are shown where available
+- AI response is grounded in retrieved references
+- Safety handling is included for severe emotional distress
+- This is only a prototype, but it can be scaled in a much stronger way.
+
+**Scaling Scope:**
+For production, the curated dataset can be expanded and connected with authentic live sources through APIs, such as Quran.com / Quran Foundation APIs for Quranic verses, translations, and tafseer, QuranEnc for translations, Sunnah.com or Hadith APIs for authentic Ahadith, and structured Seerah resources for verified historical events and references.
+
+That would allow the app to retrieve live, properly referenced content instead of depending only on local seed data.
 ## Moreover
 
 
