@@ -1,5 +1,7 @@
 # Quran & Sunnah Reflection
 
+**Use here:** https://quran-hadith-seerah-reflection.streamlit.app/
+
 This is a small but meaningful prototype using Codex (AI), and it reminded me how fast AI is changing the way we create.
 
 The idea was to build a Streamlit web app with AI & API Integration where a user can write how they are feeling, whether anxious, emotionally exhausted, grateful, lonely, hopeful, guilty, or going through a difficult phase of life. Based on that input, the app suggests relevant reminders from the Quran, authentic Hadith, and selected lessons from the Seerah, with proper references.
